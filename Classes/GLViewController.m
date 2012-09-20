@@ -15,6 +15,7 @@
 @synthesize cylinder;
 @synthesize cube;
 @synthesize sphere;
+@synthesize coin;
 - (void)drawView:(GLView*)view;
 {
 	static GLfloat rotation = 0.0;
@@ -32,6 +33,9 @@
 	
 	if (sphere)
 		[sphere drawSelf];
+    
+    if (coin)
+        [coin drawSelf];
 		
 	static NSTimeInterval lastDrawTime;
 	if (lastDrawTime)
@@ -46,6 +50,7 @@
 		cylinder.currentRotation = rot;
 		cube.currentRotation = rot;
 		sphere.currentRotation = rot;
+        coin.currentRotation = rot;
 	}
 	lastDrawTime = [NSDate timeIntervalSinceReferenceDate];
 }
@@ -123,6 +128,15 @@
 	position.x = 2.0;
 	theObject.currentPosition = position;
 	self.sphere = theObject;
+	[theObject release];
+    
+    path = [[NSBundle mainBundle] pathForResource:@"coinUV" ofType:@"obj"];
+	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
+	position.z = -4.0;
+	position.y = -1.0;
+	position.x = 1.0;
+	theObject.currentPosition = position;
+	self.coin = theObject;
 	[theObject release];
 	
 

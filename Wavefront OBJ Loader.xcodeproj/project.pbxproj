@@ -31,6 +31,9 @@
 		1FF0216C0EF21FA500761551 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0216B0EF21FA500761551 /* MainWindow.xib */; };
 		2D500B940D5A79C200DBA0E3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */; };
 		2D500B9A0D5A79CF00DBA0E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */; };
+		4668E809160BC60000384478 /* coin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4668E805160BC60000384478 /* coin.jpg */; };
+		4668E80B160BC60000384478 /* coinUV.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 4668E807160BC60000384478 /* coinUV.mtl */; };
+		4668E80C160BC60000384478 /* coinUV.obj in Resources */ = {isa = PBXBuildFile; fileRef = 4668E808160BC60000384478 /* coinUV.obj */; };
 		F040C72913298A640085398C /* cylinder2.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F040C72713298A640085398C /* cylinder2.mtl */; };
 		F040C72A13298A640085398C /* cylinder2.obj in Resources */ = {isa = PBXBuildFile; fileRef = F040C72813298A640085398C /* cylinder2.obj */; };
 /* End PBXBuildFile section */
@@ -72,6 +75,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4668E805160BC60000384478 /* coin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coin.jpg; path = Coin/coin.jpg; sourceTree = "<group>"; };
+		4668E807160BC60000384478 /* coinUV.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = coinUV.mtl; path = Coin/coinUV.mtl; sourceTree = "<group>"; };
+		4668E808160BC60000384478 /* coinUV.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = coinUV.obj; path = Coin/coinUV.obj; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F040C72713298A640085398C /* cylinder2.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cylinder2.mtl; sourceTree = "<group>"; };
 		F040C72813298A640085398C /* cylinder2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cylinder2.obj; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				1F2AF24F0F026639000B733E /* texture1-128.pvr4 */,
 				1FD86C2D0EFAF95500911736 /* plane3.mtl */,
 				1FD86C2E0EFAF95500911736 /* plane3.obj */,
+				4668E805160BC60000384478 /* coin.jpg */,
+				4668E807160BC60000384478 /* coinUV.mtl */,
+				4668E808160BC60000384478 /* coinUV.obj */,
 			);
 			path = Models;
 			sourceTree = SOURCE_ROOT;
@@ -248,6 +257,9 @@
 				1F6F62E00F0692E300D8F4EA /* earth.obj in Resources */,
 				F040C72913298A640085398C /* cylinder2.mtl in Resources */,
 				F040C72A13298A640085398C /* cylinder2.obj in Resources */,
+				4668E809160BC60000384478 /* coin.jpg in Resources */,
+				4668E80B160BC60000384478 /* coinUV.mtl in Resources */,
+				4668E80C160BC60000384478 /* coinUV.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
