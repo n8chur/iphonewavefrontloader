@@ -21,12 +21,14 @@
 	OpenGLWaveFrontObject *cube;
 	OpenGLWaveFrontObject *sphere;
     OpenGLWaveFrontObject *coin;
+    OpenGLWaveFrontObject *head;
 }
 @property (nonatomic, retain) OpenGLWaveFrontObject *plane;
 @property (nonatomic, retain) OpenGLWaveFrontObject *cylinder;
 @property (nonatomic, retain) OpenGLWaveFrontObject *cube;
 @property (nonatomic, retain) OpenGLWaveFrontObject *sphere;
 @property (nonatomic, retain) OpenGLWaveFrontObject *coin;
+@property (nonatomic, retain) OpenGLWaveFrontObject *head;
 - (void)drawView:(GLView*)view;
 - (void)setupView:(GLView*)view;
 

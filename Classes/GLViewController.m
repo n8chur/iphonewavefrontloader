@@ -16,6 +16,7 @@
 @synthesize cube;
 @synthesize sphere;
 @synthesize coin;
+@synthesize head;
 - (void)drawView:(GLView*)view;
 {
 	static GLfloat rotation = 0.0;
@@ -36,6 +37,9 @@
     
     if (coin)
         [coin drawSelf];
+    
+    if (head)
+        [head drawSelf];
 		
 	static NSTimeInterval lastDrawTime;
 	if (lastDrawTime)
@@ -51,6 +55,7 @@
 		cube.currentRotation = rot;
 		sphere.currentRotation = rot;
         coin.currentRotation = rot;
+        head.currentRotation = rot;
 	}
 	lastDrawTime = [NSDate timeIntervalSinceReferenceDate];
 }
@@ -94,54 +99,63 @@
 	
 	glGetError(); // Clear error codes
 	
-	NSTimeInterval planeStart = [NSDate timeIntervalSinceReferenceDate];
-	NSLog(@"Beggining Load of Plane at %f",  planeStart);
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"plane3" ofType:@"obj"];
+	NSTimeInterval coinStart = [NSDate timeIntervalSinceReferenceDate];
+	NSLog(@"Beggining Load of Plane at %f",  coinStart);
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"coinUV" ofType:@"obj"];
 	OpenGLWaveFrontObject *theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
-	Vertex3D position = Vertex3DMake(0.0, 3.0, -8.0);
-	theObject.currentPosition = position;
-	self.plane = theObject;
-	[theObject release];
-	NSTimeInterval planeEnd = [NSDate timeIntervalSinceReferenceDate];
-	NSLog(@"End Load of Plane at %f", planeEnd);
-	NSLog(@"Duration: %f", planeEnd - planeStart);
-	path = [[NSBundle mainBundle] pathForResource:@"cylinder2" ofType:@"obj"];
-	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
-	position = Vertex3DMake(-1.5, -3.0, -8.0);
-	theObject.currentPosition = position;
-	self.cube = theObject;
-	[theObject release];	
-	
-	path = [[NSBundle mainBundle] pathForResource:@"uvcube2" ofType:@"obj"];
-	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
-	position.z = -8.0;
-	position.y = -0.3;
-	position.x = 1.5;
-	theObject.currentPosition = position;
-	self.cylinder = theObject;
-	[theObject release];
-	
-	path = [[NSBundle mainBundle] pathForResource:@"earth" ofType:@"obj"];
-	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
-	position.z = -8.0;
-	position.y = -3.0;
-	position.x = 2.0;
-	theObject.currentPosition = position;
-	self.sphere = theObject;
-	[theObject release];
-    
-    path = [[NSBundle mainBundle] pathForResource:@"coinUV" ofType:@"obj"];
-	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
-	position.z = -4.0;
-	position.y = -1.0;
-	position.x = 1.0;
+	Vertex3D position = Vertex3DMake(0.0, 0.0, -8.0);
 	theObject.currentPosition = position;
 	self.coin = theObject;
 	[theObject release];
-	
-
-	
+	NSTimeInterval coinEnd = [NSDate timeIntervalSinceReferenceDate];
+	NSLog(@"End Load of Coin at %f", coinEnd);
+	NSLog(@"Duration: %f", coinEnd - coinStart);
+    
+    
+//	path = [[NSBundle mainBundle] pathForResource:@"cylinder2" ofType:@"obj"];
+//	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
+//	position = Vertex3DMake(-1.5, -3.0, -8.0);
+//	theObject.currentPosition = position;
+//	self.cube = theObject;
+//	[theObject release];	
+//	
+//	path = [[NSBundle mainBundle] pathForResource:@"uvcube2" ofType:@"obj"];
+//	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
+//	position.z = -8.0;
+//	position.y = -0.3;
+//	position.x = 1.5;
+//	theObject.currentPosition = position;
+//	self.cylinder = theObject;
+//	[theObject release];
+//	
+//	path = [[NSBundle mainBundle] pathForResource:@"earth" ofType:@"obj"];
+//	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
+//	position.z = -8.0;
+//	position.y = -3.0;
+//	position.x = 2.0;
+//	theObject.currentPosition = position;
+//	self.sphere = theObject;
+//	[theObject release];
+//    
+//    path = [[NSBundle mainBundle] pathForResource:@"plane3" ofType:@"obj"];
+//	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
+//	position.z = -10.0;
+//	position.y = 0.0;
+//	position.x = 0.0;
+//	theObject.currentPosition = position;
+//	self.plane = theObject;
+//	[theObject release];
+//    
+//    path = [[NSBundle mainBundle] pathForResource:@"myREye" ofType:@"obj"];
+//	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
+//	position.z = -4.0;
+//	position.y = -1.0;
+//	position.x = 1.0;
+//	theObject.currentPosition = position;
+//	self.head = theObject;
+//	[theObject release];
 }
+
 - (void)didReceiveMemoryWarning 
 {
 	

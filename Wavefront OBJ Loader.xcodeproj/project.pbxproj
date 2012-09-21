@@ -34,6 +34,18 @@
 		4668E809160BC60000384478 /* coin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4668E805160BC60000384478 /* coin.jpg */; };
 		4668E80B160BC60000384478 /* coinUV.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 4668E807160BC60000384478 /* coinUV.mtl */; };
 		4668E80C160BC60000384478 /* coinUV.obj in Resources */ = {isa = PBXBuildFile; fileRef = 4668E808160BC60000384478 /* coinUV.obj */; };
+		4668E827160BCE7C00384478 /* myREye.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 4668E81B160BCE7B00384478 /* myREye.mtl */; };
+		4668E828160BCE7C00384478 /* myREye.obj in Resources */ = {isa = PBXBuildFile; fileRef = 4668E81C160BCE7B00384478 /* myREye.obj */; };
+		4668E829160BCE7C00384478 /* nose1_eyeL_hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E81D160BCE7B00384478 /* nose1_eyeL_hi.png */; };
+		4668E82A160BCE7C00384478 /* nose1_eyeL_lo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E81E160BCE7B00384478 /* nose1_eyeL_lo.png */; };
+		4668E82B160BCE7C00384478 /* nose1_eyeR_hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E81F160BCE7B00384478 /* nose1_eyeR_hi.png */; };
+		4668E82C160BCE7C00384478 /* nose1_eyeR_lo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E820160BCE7C00384478 /* nose1_eyeR_lo.png */; };
+		4668E82D160BCE7C00384478 /* nose1_skin_hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E821160BCE7C00384478 /* nose1_skin_hi.png */; };
+		4668E82E160BCE7C00384478 /* nose1_skin_lo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E822160BCE7C00384478 /* nose1_skin_lo.png */; };
+		4668E82F160BCE7C00384478 /* nose1_skin_med.png in Resources */ = {isa = PBXBuildFile; fileRef = 4668E823160BCE7C00384478 /* nose1_skin_med.png */; };
+		4668E830160BCE7C00384478 /* OBJ-in-iphone-simulator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4668E824160BCE7C00384478 /* OBJ-in-iphone-simulator.jpg */; };
+		4668E831160BCE7C00384478 /* OBJ-iphone-simulator-closeup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4668E825160BCE7C00384478 /* OBJ-iphone-simulator-closeup.jpg */; };
+		4668E832160BCE7C00384478 /* OBJ-render-in-blender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4668E826160BCE7C00384478 /* OBJ-render-in-blender.jpg */; };
 		F040C72913298A640085398C /* cylinder2.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F040C72713298A640085398C /* cylinder2.mtl */; };
 		F040C72A13298A640085398C /* cylinder2.obj in Resources */ = {isa = PBXBuildFile; fileRef = F040C72813298A640085398C /* cylinder2.obj */; };
 /* End PBXBuildFile section */
@@ -78,6 +90,18 @@
 		4668E805160BC60000384478 /* coin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coin.jpg; path = Coin/coin.jpg; sourceTree = "<group>"; };
 		4668E807160BC60000384478 /* coinUV.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = coinUV.mtl; path = Coin/coinUV.mtl; sourceTree = "<group>"; };
 		4668E808160BC60000384478 /* coinUV.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = coinUV.obj; path = Coin/coinUV.obj; sourceTree = "<group>"; };
+		4668E81B160BCE7B00384478 /* myREye.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = myREye.mtl; path = Head/myREye.mtl; sourceTree = "<group>"; };
+		4668E81C160BCE7B00384478 /* myREye.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = myREye.obj; path = Head/myREye.obj; sourceTree = "<group>"; };
+		4668E81D160BCE7B00384478 /* nose1_eyeL_hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_eyeL_hi.png; path = Head/nose1_eyeL_hi.png; sourceTree = "<group>"; };
+		4668E81E160BCE7B00384478 /* nose1_eyeL_lo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_eyeL_lo.png; path = Head/nose1_eyeL_lo.png; sourceTree = "<group>"; };
+		4668E81F160BCE7B00384478 /* nose1_eyeR_hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_eyeR_hi.png; path = Head/nose1_eyeR_hi.png; sourceTree = "<group>"; };
+		4668E820160BCE7C00384478 /* nose1_eyeR_lo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_eyeR_lo.png; path = Head/nose1_eyeR_lo.png; sourceTree = "<group>"; };
+		4668E821160BCE7C00384478 /* nose1_skin_hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_skin_hi.png; path = Head/nose1_skin_hi.png; sourceTree = "<group>"; };
+		4668E822160BCE7C00384478 /* nose1_skin_lo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_skin_lo.png; path = Head/nose1_skin_lo.png; sourceTree = "<group>"; };
+		4668E823160BCE7C00384478 /* nose1_skin_med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nose1_skin_med.png; path = Head/nose1_skin_med.png; sourceTree = "<group>"; };
+		4668E824160BCE7C00384478 /* OBJ-in-iphone-simulator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "OBJ-in-iphone-simulator.jpg"; path = "Head/OBJ-in-iphone-simulator.jpg"; sourceTree = "<group>"; };
+		4668E825160BCE7C00384478 /* OBJ-iphone-simulator-closeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "OBJ-iphone-simulator-closeup.jpg"; path = "Head/OBJ-iphone-simulator-closeup.jpg"; sourceTree = "<group>"; };
+		4668E826160BCE7C00384478 /* OBJ-render-in-blender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "OBJ-render-in-blender.jpg"; path = "Head/OBJ-render-in-blender.jpg"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F040C72713298A640085398C /* cylinder2.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cylinder2.mtl; sourceTree = "<group>"; };
 		F040C72813298A640085398C /* cylinder2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cylinder2.obj; sourceTree = "<group>"; };
@@ -121,9 +145,8 @@
 				1F2AF24F0F026639000B733E /* texture1-128.pvr4 */,
 				1FD86C2D0EFAF95500911736 /* plane3.mtl */,
 				1FD86C2E0EFAF95500911736 /* plane3.obj */,
-				4668E805160BC60000384478 /* coin.jpg */,
-				4668E807160BC60000384478 /* coinUV.mtl */,
-				4668E808160BC60000384478 /* coinUV.obj */,
+				4668E81A160BCE5900384478 /* Coin */,
+				4668E818160BCE5500384478 /* Head */,
 			);
 			path = Models;
 			sourceTree = SOURCE_ROOT;
@@ -196,6 +219,35 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		4668E818160BCE5500384478 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				4668E81B160BCE7B00384478 /* myREye.mtl */,
+				4668E81C160BCE7B00384478 /* myREye.obj */,
+				4668E81D160BCE7B00384478 /* nose1_eyeL_hi.png */,
+				4668E81E160BCE7B00384478 /* nose1_eyeL_lo.png */,
+				4668E81F160BCE7B00384478 /* nose1_eyeR_hi.png */,
+				4668E820160BCE7C00384478 /* nose1_eyeR_lo.png */,
+				4668E821160BCE7C00384478 /* nose1_skin_hi.png */,
+				4668E822160BCE7C00384478 /* nose1_skin_lo.png */,
+				4668E823160BCE7C00384478 /* nose1_skin_med.png */,
+				4668E824160BCE7C00384478 /* OBJ-in-iphone-simulator.jpg */,
+				4668E825160BCE7C00384478 /* OBJ-iphone-simulator-closeup.jpg */,
+				4668E826160BCE7C00384478 /* OBJ-render-in-blender.jpg */,
+			);
+			name = Head;
+			sourceTree = "<group>";
+		};
+		4668E81A160BCE5900384478 /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				4668E805160BC60000384478 /* coin.jpg */,
+				4668E807160BC60000384478 /* coinUV.mtl */,
+				4668E808160BC60000384478 /* coinUV.obj */,
+			);
+			name = Coin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,6 +312,18 @@
 				4668E809160BC60000384478 /* coin.jpg in Resources */,
 				4668E80B160BC60000384478 /* coinUV.mtl in Resources */,
 				4668E80C160BC60000384478 /* coinUV.obj in Resources */,
+				4668E827160BCE7C00384478 /* myREye.mtl in Resources */,
+				4668E828160BCE7C00384478 /* myREye.obj in Resources */,
+				4668E829160BCE7C00384478 /* nose1_eyeL_hi.png in Resources */,
+				4668E82A160BCE7C00384478 /* nose1_eyeL_lo.png in Resources */,
+				4668E82B160BCE7C00384478 /* nose1_eyeR_hi.png in Resources */,
+				4668E82C160BCE7C00384478 /* nose1_eyeR_lo.png in Resources */,
+				4668E82D160BCE7C00384478 /* nose1_skin_hi.png in Resources */,
+				4668E82E160BCE7C00384478 /* nose1_skin_lo.png in Resources */,
+				4668E82F160BCE7C00384478 /* nose1_skin_med.png in Resources */,
+				4668E830160BCE7C00384478 /* OBJ-in-iphone-simulator.jpg in Resources */,
+				4668E831160BCE7C00384478 /* OBJ-iphone-simulator-closeup.jpg in Resources */,
+				4668E832160BCE7C00384478 /* OBJ-render-in-blender.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
